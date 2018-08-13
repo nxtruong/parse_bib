@@ -50,7 +50,8 @@ def month_string_to_number(string):
 def get_author_link(string):
     web = {
         'P. Aristidou':'https://www.paristidou.info',
-        'Co-author 2': 'http://www.amazing-site.com'
+        'T. X. Nghiem': 'http://truongnghiem.com',
+        'T. Nghiem': 'http://truongnghiem.com'
         }
     out = ''
     try:
@@ -85,6 +86,7 @@ if __name__ == "__main__":
     # It takes the type of the bibtex entry and maps to a corresponding category of the academic theme
     pubtype_dict = {
         'PW': '"0"',
+        'misc': '"0"',
         'phdthesis': '"0"',
         'mastersthesis': '"0"',
         'Uncategorized': '"0"',
